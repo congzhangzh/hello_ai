@@ -2,6 +2,7 @@ import pygame
 import random
 import numpy
 import math
+import asyncio  # 添加asyncio支持
 
 # 游戏常量
 SCREEN_WIDTH = 400  # 增加宽度以容纳预览区域
@@ -295,4 +296,14 @@ class Tetris:
 
 if __name__ == '__main__':
     game = Tetris()
-    game.run()
+    
+    # 将主循环改为异步，兼容pygbag
+    async def main():
+        game.run()
+        
+    # 直接运行或通过pygbag运行
+    if __name__ == '__main__':
+        try:
+            asyncio.run(main())
+        except TypeError:  # 处理在浏览器环境中的运行
+            game.run()
