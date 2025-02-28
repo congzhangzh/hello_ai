@@ -1,0 +1,40 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "调试 get_disk_info_v3",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/get_disk_info_v3.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "调试 v4.py",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/v4.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "调试 def.py",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/def.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Vite: Chrome调试",
+      "url": "http://localhost:5173",
+      "webRoot": "${workspaceFolder}/your-vite-project"
+    },
+    {
+      "type": "edge",
+      "request": "launch",
+      "name": "Vite: Edge调试",
+      "url": "http://localhost:5173",
+      "webRoot": "${workspaceFolder}/your-vite-project"
+    }
+  ]
+} 

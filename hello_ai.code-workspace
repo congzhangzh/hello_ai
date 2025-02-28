@@ -1,0 +1,29 @@
+{
+  "folders": [
+    {
+      "path": "hello_disk_info_wip"
+    },
+    {
+      "path": "hello_mri"
+    },
+    {
+      "path": "hello_snake"
+    },
+    {
+      "path": "hello_galaga"
+    },
+    {
+      "path": "hello_tetris"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/Thumbs.db": true
+    }
+  }
+} 
