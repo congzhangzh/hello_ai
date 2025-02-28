@@ -1,0 +1,29 @@
+:root {
+  font-family: monospace;
+  color-scheme: dark;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* 游戏按钮样式 */
+button {
+  font-family: monospace;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.95);
+}
